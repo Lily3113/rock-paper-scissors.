@@ -1,0 +1,13 @@
+weight=(input("enter your weight "))
+height=(input("enter your height "))
+
+
+BMI = (float(weight//height**2))
+print(BMI)
+if BMI  >70:
+   print("your are over weight")
+else:
+   print("you have normal weight")   
+
+
+

@@ -1,0 +1,5 @@
+weight=float(input("enter your weight "))
+if  weight >70:
+   print("you are over weight") 
+else:
+   print("you have normal weight")
