@@ -27,3 +27,6 @@ def treasure_game():
     print(f"\n💔 Game Over! The treasure was in the {treasure}.")
 
 treasure_game()
+
+
+

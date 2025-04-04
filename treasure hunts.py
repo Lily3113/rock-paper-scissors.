@@ -73,6 +73,5 @@ def treasure_hunt():
         print("You didn't win any gems this time.")
     
     print("\nThanks for playing Treasure Hunt!")
+import random
 
-# Start the game
-treasure_hunt()
