@@ -1,0 +1,21 @@
+import time
+
+def traffic_robot():
+    while True:
+        # Red light for 30 seconds
+        print("Red light ON - STOP")
+        time.sleep(10)
+
+        # Green light for 60 seconds
+        print("Green light ON - GO")
+        time.sleep(20)
+
+        # Amber light for 5 seconds
+        print("Amber light ON - PREPARE TO STOP")
+        time.sleep(5)
+
+        # Cycle restarts
+        print("Traffic light cycle complete. Restarting...\n")
+
+# Start the traffic light simulation
+traffic_robot()

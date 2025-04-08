@@ -7,7 +7,13 @@ print(BMI)
 if BMI  >70:
    print("your are over weight")
 else:
-   print("you have normal weight")   
+   print("you have normal weight") 
+
+
+
+
+   
+     
 
 
 
